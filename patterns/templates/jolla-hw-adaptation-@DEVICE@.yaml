@@ -43,8 +43,9 @@ Requires:
 - qt5-qpa-hwcomposer-plugin
 - qtscenegraph-adaptation
 
-# For devices with droidmedia and gst-droid built, see HADK pdf for more information
+# For hybris devices with droidmedia, see HADK pdf for more information
 - gstreamer1.0-droid
+- gmp-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
